@@ -20,6 +20,8 @@ public class proyectil : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
             Destroy(gameObject);
+          
         }
     }
+    ///vamos a hacer cambios
 }
